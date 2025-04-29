@@ -9,14 +9,14 @@ import { loadBusRoutes, BusRoute } from './searchbus.tsx'
 
 const userLocationIcon = new DivIcon({
   className: 'custom-div-icon',
-  html: `<img src="public/alfinete.png" alt="user Icon" style="width: 24px; height: 24px; ">`,
+  html: `<img src="./alfinete.png" alt="user Icon" style="width: 24px; height: 24px; ">`,
   iconSize: [24, 24],
   iconAnchor: [12, 12]
 })
 
 const busStopIcon = new DivIcon({
   className: 'bus-stop-icon',
-  html:`<img src="public/busicon.png" alt="Bus Icon" style="width: 12px; height: 12px">`,
+  html:`<img src="./busicon.png" alt="Bus Icon" style="width: 12px; height: 12px">`,
   iconSize: [12, 12],
   iconAnchor: [6, 6]
 })
